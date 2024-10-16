@@ -7,14 +7,14 @@ ProjectName            :=EJEMPLO13
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=C:/Users/diyin/OneDrive/Documentos/WORKSPACE
-ProjectPath            :=C:/Users/diyin/OneDrive/Documentos/WORKSPACE/EJEMPLO13
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/EJEMPLO13
+ProjectPath            :=C:/Users/diyin/OneDrive/Documentos/WORKSPACE/EEDD/EJEMPLO13
+IntermediateDirectory  :=../../build-$(WorkspaceConfiguration)/EEDD/EJEMPLO13
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=diyin
-Date                   :=10/2/2024
+Date                   :=10/4/2024
 CodeLitePath           :=C:/Users/diyin/OneDrive/Documentos/codelite-amd64-17.0.0/codelite
 MakeDirCommand         :=mkdir
 LinkerName             :=g++
@@ -30,7 +30,7 @@ LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
 OutputDirectory        :=C:/Users/diyin/OneDrive/Documentos/WORKSPACE/build-$(WorkspaceConfiguration)/bin
-OutputFile             :=..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
+OutputFile             :=..\..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
 Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
@@ -96,12 +96,12 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/diyin/OneDrive/Documentos/WORKSPACE/EJEMPLO13/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/diyin/OneDrive/Documentos/WORKSPACE/EEDD/EJEMPLO13/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
 $(IntermediateDirectory)/Persona.cpp$(ObjectSuffix): Persona.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/diyin/OneDrive/Documentos/WORKSPACE/EJEMPLO13/Persona.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Persona.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/diyin/OneDrive/Documentos/WORKSPACE/EEDD/EJEMPLO13/Persona.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Persona.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Persona.cpp$(PreprocessSuffix): Persona.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Persona.cpp$(PreprocessSuffix) Persona.cpp
 

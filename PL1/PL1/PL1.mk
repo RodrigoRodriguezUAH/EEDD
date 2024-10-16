@@ -3,18 +3,18 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Cola
+ProjectName            :=PL1
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=C:/Users/diyin/OneDrive/Documentos/WORKSPACE
-ProjectPath            :=C:/Users/diyin/OneDrive/Documentos/WORKSPACE/EEDD/Cola
-IntermediateDirectory  :=../../build-$(WorkspaceConfiguration)/EEDD/Cola
+ProjectPath            :=C:/Users/diyin/OneDrive/Documentos/WORKSPACE/PL1
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/PL1
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=diyin
-Date                   :=10/4/2024
+Date                   :=10/7/2024
 CodeLitePath           :=C:/Users/diyin/OneDrive/Documentos/codelite-amd64-17.0.0/codelite
 MakeDirCommand         :=mkdir
 LinkerName             :=g++
@@ -30,7 +30,7 @@ LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
 OutputDirectory        :=C:/Users/diyin/OneDrive/Documentos/WORKSPACE/build-$(WorkspaceConfiguration)/bin
-OutputFile             :=..\..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
+OutputFile             :=..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
 Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
@@ -64,7 +64,7 @@ AS       := as
 ## User defined environment variables
 ##
 CodeLiteDir:=E:\EEDD\codelite-amd64-17.0.0\codelite
-Objects0=$(IntermediateDirectory)/up_EJEMPLO13_Persona.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
 
 
 
@@ -95,25 +95,10 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/up_EJEMPLO13_Persona.cpp$(ObjectSuffix): ../EJEMPLO13/Persona.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/diyin/OneDrive/Documentos/WORKSPACE/EEDD/EJEMPLO13/Persona.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/up_EJEMPLO13_Persona.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/up_EJEMPLO13_Persona.cpp$(PreprocessSuffix): ../EJEMPLO13/Persona.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/up_EJEMPLO13_Persona.cpp$(PreprocessSuffix) ../EJEMPLO13/Persona.cpp
-
-$(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix): NodoCola.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/diyin/OneDrive/Documentos/WORKSPACE/EEDD/Cola/NodoCola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/NodoCola.cpp$(PreprocessSuffix): NodoCola.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoCola.cpp$(PreprocessSuffix) NodoCola.cpp
-
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/diyin/OneDrive/Documentos/WORKSPACE/EEDD/Cola/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/diyin/OneDrive/Documentos/WORKSPACE/PL1/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
-
-$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix): Cola.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/diyin/OneDrive/Documentos/WORKSPACE/EEDD/Cola/Cola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix): Cola.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix) Cola.cpp
 
 ##
 ## Clean

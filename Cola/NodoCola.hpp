@@ -1,4 +1,5 @@
 #include <iostream>
+#include <Persona.hpp>
 using namespace std;
 
 class NodoCola {

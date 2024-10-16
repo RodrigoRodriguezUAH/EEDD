@@ -72,7 +72,6 @@ void Persona::setEdad(int edad) {
 // Método para mostrar la información de la persona
 void Persona::mostrar() {
   cout << "Edad: " << edad << endl;
-  cout << "Género: " << (genero ? "Mujer" : "Hombre") << endl;
+  cout << "Genero: " << (genero ? "Mujer" : "Hombre") << endl;
   cout << "DNI: " << DNI << endl;
 }
-

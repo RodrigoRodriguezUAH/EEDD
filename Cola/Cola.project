@@ -94,11 +94,13 @@
   </Settings>
   <VirtualDirectory Name="src">
     <VirtualDirectory Name="Source Files">
+      <File Name="../EJEMPLO13/Persona.cpp"/>
       <File Name="Cola.cpp"/>
       <File Name="NodoCola.cpp"/>
       <File Name="main.cpp"/>
     </VirtualDirectory>
     <VirtualDirectory Name="Header Files">
+      <File Name="../EJEMPLO13/Persona.hpp"/>
       <File Name="Cola.hpp"/>
       <File Name="NodoCola.hpp"/>
     </VirtualDirectory>
